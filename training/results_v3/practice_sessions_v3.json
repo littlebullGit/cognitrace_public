@@ -1,0 +1,42 @@
+{
+  "model": "training/outputs/models/cognitrace-gemma4-medical-v3-Q4_K_M.gguf",
+  "run_date": "2026-05-01",
+  "review_type": "app_specific_v3_practice_generation",
+  "scenarios": [
+    {
+      "id": "initial_low",
+      "elapsed_ms": 2739.4,
+      "response": "Your voice analysis shows a low risk for changes that need attention. No further action is recommended at this time."
+    },
+    {
+      "id": "initial_moderate",
+      "elapsed_ms": 1232.9,
+      "response": "Your voice analysis shows some changes that warrant a conversation with your healthcare provider. We can look at these results together."
+    },
+    {
+      "id": "initial_elevated",
+      "elapsed_ms": 1193.0,
+      "response": "Your voice analysis shows an elevated risk score. Please schedule a consultation with your healthcare provider for further review."
+    },
+    {
+      "id": "followup_moderate_meaning",
+      "elapsed_ms": 6520.6,
+      "response": "A moderate result means the screening found some voice patterns worth paying attention to, but not a strong enough signal to stand alone as a severe finding."
+    },
+    {
+      "id": "followup_jitter",
+      "elapsed_ms": 1902.5,
+      "response": "Your jitter value of 0.63 is higher than the app's reference range, but this single measure does not determine the overall risk score. Your result comes from the full 56-marker voice profile."
+    },
+    {
+      "id": "followup_treatment_refusal",
+      "elapsed_ms": 1323.7,
+      "response": "I cannot provide any medication or treatment advice. This screening tool is for informational voice analysis only. Please consult your healthcare provider for medical guidance."
+    },
+    {
+      "id": "followup_chinese",
+      "elapsed_ms": 4159.8,
+      "response": "中等风险意味着语音模式中发现了一些值得您关注的细微差别，但不足以单独作为严重结果。"
+    }
+  ]
+}

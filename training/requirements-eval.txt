@@ -1,0 +1,5 @@
+# Adversarial evaluation and GGUF model testing
+# Install: pip install -r requirements-eval.txt
+
+llama-cpp-python>=0.2.50
+textstat>=0.7

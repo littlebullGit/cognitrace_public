@@ -1,0 +1,234 @@
+{
+  "Italiano": {
+    "screening_basics.overview": {
+      "title": "Cosa fa questo screening",
+      "body": "CogniTrace è uno strumento di screening vocale. Analizza un campione di voce registrato con un ensemble ONNX classico per cercare pattern che può valere la pena monitorare o discutere con un medico, ma non diagnostica il Parkinson."
+    },
+    "screening_basics.why_voice_can_matter": {
+      "title": "Perché la voce può essere studiata nella ricerca sul Parkinson",
+      "body": "La voce viene talvolta studiata perché cambiamenti nel controllo vocale, nella stabilità dell'intensità, nel ritmo e nella qualità del suono possono comparire in condizioni neurologiche e non neurologiche. Un campione vocale può quindi offrire informazioni utili di screening, ma la sola voce non basta per formulare una diagnosi."
+    },
+    "result_meaning.low": {
+      "title": "Cosa significa un risultato basso",
+      "body": "Un risultato basso significa che questa registrazione non somigliava in modo marcato ai pattern vocali associati al Parkinson presenti nei dati di addestramento del modello. Può essere rassicurante, ma non esclude sintomi, cambiamenti futuri o altre ragioni per chiedere un parere medico."
+    },
+    "result_meaning.low_next_step": {
+      "title": "Come interpretare un risultato basso",
+      "body": "Un risultato basso di solito va letto come non particolarmente preoccupante per questa registrazione in queste condizioni. Se noti comunque cambiamenti della voce, del linguaggio, del movimento o altri sintomi, questi contano più della sola app e meritano comunque di essere discussi con un medico."
+    },
+    "result_meaning.moderate": {
+      "title": "Cosa significa un risultato moderato",
+      "body": "Un risultato moderato significa che lo screening ha rilevato alcuni pattern vocali a cui vale la pena prestare attenzione, ma non un segnale abbastanza forte da bastare da solo come riscontro preoccupante. È meglio interpretarlo considerando il contesto, le condizioni di registrazione e l'eventuale presenza di sintomi o cambiamenti nel tempo."
+    },
+    "result_meaning.moderate_when_to_follow_up": {
+      "title": "Quando un risultato moderato può meritare più attenzione",
+      "body": "Un risultato moderato può meritare più attenzione se si ripete più di una volta, se la registrazione è stata fatta in buone condizioni, o se la persona ha notato cambiamenti della voce, del linguaggio, del movimento o della deglutizione. Il risultato va comunque presentato come informazione di screening, non come prova di una condizione."
+    },
+    "result_meaning.elevated": {
+      "title": "Cosa significa un risultato elevato",
+      "body": "Un risultato elevato significa che il modello completo di screening ha trovato una somiglianza più forte con i pattern vocali associati al Parkinson presenti nei suoi dati di addestramento. È un segnale di screening, non una diagnosi, e va trattato come qualcosa da discutere con un medico piuttosto che come prova di malattia."
+    },
+    "result_meaning.elevated_balanced": {
+      "title": "Come reagire a un risultato elevato",
+      "body": "Un risultato elevato va preso abbastanza seriamente da meritare una verifica, ma non come una valutazione d'urgenza fatta dall'app. Una risposta equilibrata è annotare il risultato, ricordare che i fattori confondenti possono contare e portarlo in una conversazione clinica insieme ai sintomi e al contesto."
+    },
+    "result_meaning.repeated_results": {
+      "title": "Perché risultati ripetuti possono essere più informativi di un solo risultato",
+      "body": "Risultati ripetuti in condizioni simili e di buona qualità possono aiutare a capire se un riscontro sembra stabile o se è stato probabilmente influenzato dalle circostanze. Anche in quel caso, screening ripetuti non diagnosticano una malattia, e l'andamento va interpretato insieme ai sintomi e al giudizio clinico."
+    },
+    "confounders.common_overview": {
+      "title": "Fattori comuni che possono influenzare una registrazione",
+      "body": "Stanchezza, disidratazione, malattia respiratoria, allergie, raucedine, stress, distanza dal microfono, rumore di fondo, impegno incoerente e un compito eseguito in fretta possono tutti modificare le misurazioni vocali. Questi fattori possono influenzare il risultato senza riflettere un cambiamento specifico del Parkinson."
+    },
+    "limitations.not_diagnostic": {
+      "title": "L'app non è un test diagnostico",
+      "body": "Questa app è pensata per lo screening e il supporto al monitoraggio, non per la diagnosi. Un medico può considerare il risultato insieme a sintomi, storia clinica, visita e altre possibili cause, aspetti che l'app non può cogliere completamente dalla sola voce."
+    },
+    "limitations.no_rule_out": {
+      "title": "Perché un risultato basso non esclude del tutto il problema",
+      "body": "Un risultato basso significa che la registrazione non è risultata fortemente preoccupante per il modello in quelle condizioni. Non garantisce che i sintomi siano assenti, che non ci saranno cambiamenti futuri o che un altro tipo di valutazione risulterebbe anch'esso a basso rischio."
+    },
+    "limitations.full_model": {
+      "title": "Perché un singolo biomarcatore non spiega il risultato",
+      "body": "Il modello di screening ha usato insieme l'intero set di caratteristiche, non una singola misurazione. I singoli biomarcatori possono essere descritti e mostrati, ma non devono essere presentati come l'unica ragione del risultato finale."
+    },
+    "doctor_visit.when_to_discuss": {
+      "title": "Quando ha senso parlarne con un medico",
+      "body": "Parlarne con un medico può avere senso quando il risultato è elevato, quando risultati moderati si ripetono, quando sono presenti sintomi, o quando la persona vuole aiuto per interpretare preoccupazioni persistenti. L'app deve presentarlo come follow-up e chiarimento, non come conferma di malattia."
+    }
+  },
+  "中文": {
+    "screening_basics.overview": {
+      "title": "这项筛查会做什么",
+      "body": "CogniTrace 是一款语音筛查工具。它用经典 ONNX 集成模型分析录制的语音样本，寻找值得持续观察或与医生讨论的模式，但它不会诊断帕金森病。"
+    },
+    "screening_basics.why_voice_can_matter": {
+      "title": "为什么帕金森相关研究会关注声音",
+      "body": "之所以有时会研究声音，是因为发声控制、音量稳定性、节律和音质的变化，可能出现在神经系统和非神经系统情况中。因此，语音样本可以提供有用的筛查信息，但仅凭声音本身还不足以做出诊断。"
+    },
+    "result_meaning.low": {
+      "title": "低结果意味着什么",
+      "body": "低结果表示，这次录音与模型训练数据中帕金森相关的声音模式没有明显相似。它可以让人安心一些，但并不能排除症状、未来变化，或其他需要就医咨询的原因。"
+    },
+    "result_meaning.low_next_step": {
+      "title": "如何看待低结果",
+      "body": "低结果通常表示在这次录音和这些条件下，没有发现特别令人担心的信号。如果你仍然注意到声音、说话、动作或其他方面的变化，这些感受比应用本身更重要，仍然值得和医生讨论。"
+    },
+    "result_meaning.moderate": {
+      "title": "中等结果意味着什么",
+      "body": "中等结果表示，筛查发现了一些值得留意的声音模式，但信号还没有强到可以单独视为严重发现。最好结合背景、录音条件，以及是否存在症状或随时间出现的变化来理解它。"
+    },
+    "result_meaning.moderate_when_to_follow_up": {
+      "title": "中等结果在什么情况下更值得重视",
+      "body": "如果中等结果不止出现一次、录音条件较好，或者用户已经注意到声音、说话、动作或吞咽方面的变化，那么它可能更值得重视。即便如此，这个结果仍应被视为筛查信息，而不是某种疾病的证据。"
+    },
+    "result_meaning.elevated": {
+      "title": "较高结果意味着什么",
+      "body": "较高结果表示，完整的筛查模型在其训练数据中发现了与你这次录音更接近的帕金森相关声音模式。它是一个筛查信号，不是诊断，更适合拿去和医生讨论，而不是当成疾病已经被证实。"
+    },
+    "result_meaning.elevated_balanced": {
+      "title": "如何平衡地看待较高结果",
+      "body": "较高结果值得认真对待并进一步核实，但不应被理解为应用发出的紧急判断。更平衡的做法是记录这个结果，记住混杂因素也可能产生影响，并把它连同症状和背景一起带入与医生的沟通。"
+    },
+    "result_meaning.repeated_results": {
+      "title": "为什么重复结果往往比单次结果更有信息量",
+      "body": "在相似且录音质量较好的条件下重复筛查，有助于判断某个发现是否稳定，还是更可能受到当时环境影响。即便如此，重复筛查也不能诊断疾病，仍需要结合症状和临床判断来理解。"
+    },
+    "confounders.common_overview": {
+      "title": "常见会影响录音的因素",
+      "body": "疲劳、脱水、呼吸道疾病、过敏、声音嘶哑、压力、与麦克风的距离、背景噪音、用力不一致，以及任务做得太仓促，都可能改变语音测量结果。这些因素会影响结果，但并不一定反映帕金森特异性的变化。"
+    },
+    "limitations.not_diagnostic": {
+      "title": "这个应用不是诊断测试",
+      "body": "这个应用的设计目的是提供筛查和监测支持，而不是做出诊断。医生会把结果与症状、病史、体格检查以及其他可能原因一起考虑，而这些内容应用无法仅靠声音完全捕捉。"
+    },
+    "limitations.no_rule_out": {
+      "title": "为什么低结果并不能完全排除问题",
+      "body": "低结果表示，在当时那次录音条件下，模型没有把这段声音看作明显令人担心。它并不保证没有症状、未来不会出现变化，也不保证其他类型的评估同样会是低风险。"
+    },
+    "limitations.full_model": {
+      "title": "为什么单个生物标志物不能解释结果",
+      "body": "筛查模型使用的是完整特征集合的综合信息，而不是某一个单独测量值。单个生物标志物可以被展示和解释，但不应被说成是模型得出最终筛查结果的唯一原因。"
+    },
+    "doctor_visit.when_to_discuss": {
+      "title": "什么时候适合和医生讨论",
+      "body": "当结果较高、中等结果反复出现、已经存在症状，或者用户希望有人帮助解释持续存在的担忧时，和医生讨论通常是有意义的。应用应把这一步描述为后续跟进和澄清，而不是疾病已经被确认。"
+    }
+  },
+  "Español": {
+    "screening_basics.overview": {
+      "title": "Qué hace este cribado",
+      "body": "CogniTrace es una herramienta de cribado por voz. Analiza una muestra de voz grabada con un conjunto ONNX clásico para buscar patrones que puede valer la pena vigilar o comentar con un médico, pero no diagnostica la enfermedad de Parkinson."
+    },
+    "screening_basics.why_voice_can_matter": {
+      "title": "Por qué la voz puede estudiarse en la investigación relacionada con el Parkinson",
+      "body": "La voz a veces se estudia porque pueden aparecer cambios en el control vocal, la estabilidad de la intensidad, el ritmo y la calidad del sonido tanto en afecciones neurológicas como no neurológicas. Por eso, una muestra de voz puede aportar información útil de cribado, pero la voz por sí sola no basta para hacer un diagnóstico."
+    },
+    "result_meaning.low": {
+      "title": "Qué significa un resultado bajo",
+      "body": "Un resultado bajo significa que esta grabación no se pareció de forma marcada a los patrones de voz relacionados con el Parkinson presentes en los datos de entrenamiento del modelo. Puede ser tranquilizador, pero no descarta síntomas, cambios futuros ni otras razones para consultar a un médico."
+    },
+    "result_meaning.low_next_step": {
+      "title": "Cómo pensar en un resultado bajo",
+      "body": "Un resultado bajo suele leerse como poco preocupante para esta grabación en estas condiciones. Si aun así notas cambios en la voz, el habla, el movimiento u otros síntomas, esas señales importan más que la app por sí sola y siguen mereciendo una conversación con un médico."
+    },
+    "result_meaning.moderate": {
+      "title": "Qué significa un resultado moderado",
+      "body": "Un resultado moderado significa que el cribado encontró algunos patrones de voz a los que conviene prestar atención, pero no una señal tan fuerte como para sostener por sí sola un hallazgo preocupante. Lo mejor es interpretarlo teniendo en cuenta el contexto, las condiciones de grabación y si hay síntomas o cambios con el tiempo."
+    },
+    "result_meaning.moderate_when_to_follow_up": {
+      "title": "Cuándo un resultado moderado puede merecer más atención",
+      "body": "Un resultado moderado puede merecer más atención si aparece más de una vez, si la grabación se hizo en buenas condiciones o si la persona ha notado cambios en la voz, el habla, el movimiento o la deglución. Aun así, el resultado debe presentarse como información de cribado y no como prueba de una enfermedad."
+    },
+    "result_meaning.elevated": {
+      "title": "Qué significa un resultado elevado",
+      "body": "Un resultado elevado significa que el modelo completo de cribado encontró una similitud mayor con los patrones de voz relacionados con el Parkinson presentes en sus datos de entrenamiento. Es una señal de cribado, no un diagnóstico, y debe tratarse como algo para comentar con un médico, no como prueba de enfermedad."
+    },
+    "result_meaning.elevated_balanced": {
+      "title": "Cómo reaccionar a un resultado elevado",
+      "body": "Un resultado elevado debe tomarse lo bastante en serio como para revisarlo, pero no como una urgencia declarada por la app. Una respuesta equilibrada es anotar el resultado, recordar que los factores de confusión pueden influir y llevarlo a una conversación clínica junto con los síntomas y el contexto."
+    },
+    "result_meaning.repeated_results": {
+      "title": "Por qué los resultados repetidos pueden ser más informativos que uno solo",
+      "body": "Resultados repetidos en condiciones similares y de buena calidad pueden ayudar a mostrar si un hallazgo parece estable o si probablemente estuvo influido por las circunstancias. Incluso así, los cribados repetidos no diagnostican enfermedad y el patrón debe interpretarse junto con los síntomas y el criterio clínico."
+    },
+    "confounders.common_overview": {
+      "title": "Factores frecuentes que pueden afectar una grabación",
+      "body": "Cansancio, deshidratación, enfermedad respiratoria, alergias, ronquera, estrés, distancia al micrófono, ruido de fondo, esfuerzo inconsistente y realizar la tarea con prisa pueden cambiar las mediciones de voz. Estos factores pueden afectar el resultado sin reflejar un cambio específico de Parkinson."
+    },
+    "limitations.not_diagnostic": {
+      "title": "La app no es una prueba diagnóstica",
+      "body": "Esta app está diseñada para apoyar el cribado y el seguimiento, no para diagnosticar. Un médico puede valorar el resultado junto con los síntomas, los antecedentes, la exploración y otras posibles causas, aspectos que la app no puede captar por completo solo a partir de la voz."
+    },
+    "limitations.no_rule_out": {
+      "title": "Por qué un resultado bajo no descarta todo por completo",
+      "body": "Un resultado bajo significa que la grabación no resultó especialmente preocupante para el modelo en esas condiciones. No garantiza que no haya síntomas, que no aparezcan cambios futuros o que otro tipo de evaluación también fuera de bajo riesgo."
+    },
+    "limitations.full_model": {
+      "title": "Por qué un solo biomarcador no explica el resultado",
+      "body": "El modelo de cribado utilizó todo el conjunto de características a la vez y no una única medición. Los biomarcadores individuales pueden describirse y mostrarse, pero no deben presentarse como la única razón por la que el modelo produjo el resultado final."
+    },
+    "doctor_visit.when_to_discuss": {
+      "title": "Cuándo tiene sentido hablarlo con un médico",
+      "body": "Hablarlo con un médico puede tener sentido cuando el resultado es elevado, cuando los resultados moderados se repiten, cuando hay síntomas o cuando la persona quiere ayuda para interpretar preocupaciones persistentes. La app debe plantearlo como seguimiento y aclaración, no como confirmación de enfermedad."
+    }
+  },
+  "Français": {
+    "screening_basics.overview": {
+      "title": "Ce que fait ce dépistage",
+      "body": "CogniTrace est un outil de dépistage vocal. Il analyse un échantillon de voix enregistré avec un ensemble ONNX classique afin de repérer des motifs qui peuvent mériter une surveillance ou une discussion avec un médecin, mais il ne diagnostique pas la maladie de Parkinson."
+    },
+    "screening_basics.why_voice_can_matter": {
+      "title": "Pourquoi la voix peut être étudiée dans la recherche liée à Parkinson",
+      "body": "La voix est parfois étudiée parce que des changements du contrôle vocal, de la stabilité de l'intensité, du rythme et de la qualité sonore peuvent apparaître dans des situations neurologiques et non neurologiques. Un échantillon vocal peut donc fournir des informations utiles de dépistage, mais la voix seule ne suffit pas pour poser un diagnostic."
+    },
+    "result_meaning.low": {
+      "title": "Ce que signifie un résultat faible",
+      "body": "Un résultat faible signifie que cet enregistrement ne ressemblait pas fortement aux profils vocaux liés à Parkinson présents dans les données d'entraînement du modèle. Cela peut être rassurant, mais cela n'exclut ni symptômes, ni évolution future, ni d'autres raisons de demander un avis médical."
+    },
+    "result_meaning.low_next_step": {
+      "title": "Comment interpréter un résultat faible",
+      "body": "Un résultat faible se lit en général comme peu préoccupant pour cet enregistrement dans ces conditions. Si vous remarquez malgré tout des changements de voix, de parole, de mouvement ou d'autres symptômes, ces éléments comptent davantage que l'app seule et méritent toujours d'être discutés avec un médecin."
+    },
+    "result_meaning.moderate": {
+      "title": "Ce que signifie un résultat modéré",
+      "body": "Un résultat modéré signifie que le dépistage a trouvé certains motifs vocaux qui méritent de l'attention, sans pour autant constituer à eux seuls un signal suffisamment fort pour un constat préoccupant. Il vaut mieux l'interpréter en tenant compte du contexte, des conditions d'enregistrement et de la présence éventuelle de symptômes ou de changements dans le temps."
+    },
+    "result_meaning.moderate_when_to_follow_up": {
+      "title": "Quand un résultat modéré peut mériter plus d'attention",
+      "body": "Un résultat modéré peut mériter plus d'attention s'il se répète, si l'enregistrement a été réalisé dans de bonnes conditions ou si la personne a remarqué des changements de voix, de parole, de mouvement ou de déglutition. Malgré cela, ce résultat doit rester présenté comme une information de dépistage et non comme une preuve de maladie."
+    },
+    "result_meaning.elevated": {
+      "title": "Ce que signifie un résultat élevé",
+      "body": "Un résultat élevé signifie que le modèle complet de dépistage a trouvé une ressemblance plus marquée avec les profils vocaux liés à Parkinson présents dans ses données d'entraînement. C'est un signal de dépistage, pas un diagnostic, et il doit être présenté comme quelque chose à discuter avec un médecin plutôt que comme une preuve de maladie."
+    },
+    "result_meaning.elevated_balanced": {
+      "title": "Comment réagir à un résultat élevé",
+      "body": "Un résultat élevé doit être pris assez au sérieux pour être vérifié, mais pas comme un avis d'urgence émis par l'app. Une réponse équilibrée consiste à noter le résultat, à garder à l'esprit que des facteurs de confusion peuvent intervenir, puis à l'aborder dans une conversation clinique avec les symptômes et le contexte."
+    },
+    "result_meaning.repeated_results": {
+      "title": "Pourquoi des résultats répétés peuvent être plus informatifs qu'un seul résultat",
+      "body": "Des résultats répétés dans des conditions similaires et de bonne qualité peuvent aider à voir si un constat paraît stable ou s'il a probablement été influencé par les circonstances. Même dans ce cas, des dépistages répétés ne diagnostiquent pas une maladie, et l'évolution doit être interprétée avec les symptômes et le jugement clinique."
+    },
+    "confounders.common_overview": {
+      "title": "Facteurs fréquents pouvant affecter un enregistrement",
+      "body": "La fatigue, la déshydratation, une maladie respiratoire, des allergies, l'enrouement, le stress, la distance au microphone, le bruit de fond, un effort irrégulier et une tâche réalisée trop vite peuvent tous modifier les mesures vocales. Ces facteurs peuvent influencer le résultat sans refléter un changement spécifique à Parkinson."
+    },
+    "limitations.not_diagnostic": {
+      "title": "L'app n'est pas un test diagnostique",
+      "body": "Cette app est conçue pour le dépistage et l'aide au suivi, pas pour le diagnostic. Un médecin peut interpréter le résultat avec les symptômes, les antécédents, l'examen clinique et d'autres causes possibles, éléments que l'app ne peut pas saisir complètement à partir de la seule voix."
+    },
+    "limitations.no_rule_out": {
+      "title": "Pourquoi un résultat faible n'écarte pas totalement la possibilité d'un problème",
+      "body": "Un résultat faible signifie que l'enregistrement n'a pas semblé fortement préoccupant pour le modèle dans ces conditions. Cela ne garantit ni l'absence de symptômes, ni l'absence d'évolution future, ni qu'un autre type d'évaluation serait également à faible risque."
+    },
+    "limitations.full_model": {
+      "title": "Pourquoi un seul biomarqueur n'explique pas le résultat",
+      "body": "Le modèle de dépistage a utilisé l'ensemble complet des caractéristiques plutôt qu'une mesure isolée. Des biomarqueurs individuels peuvent être décrits et affichés, mais ils ne doivent pas être présentés comme l'unique raison du résultat final produit par le modèle."
+    },
+    "doctor_visit.when_to_discuss": {
+      "title": "Quand une discussion avec un médecin est pertinente",
+      "body": "Une discussion avec un médecin peut être pertinente lorsque le résultat est élevé, lorsque des résultats modérés se répètent, lorsque des symptômes sont présents ou lorsque la personne souhaite de l'aide pour interpréter des inquiétudes persistantes. L'app doit présenter cela comme un suivi et une clarification, pas comme une confirmation de maladie."
+    }
+  }
+}

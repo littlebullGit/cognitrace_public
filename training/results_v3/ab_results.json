@@ -1,0 +1,110 @@
+{
+  "total_rated": 20,
+  "candidate_preferred": 3,
+  "base_preferred": 17,
+  "candidate_preference_pct": 15.0,
+  "gate_threshold": "candidate_preferred >= 12/20",
+  "gate_pass": false,
+  "details": [
+    {
+      "id": 1,
+      "preferred_label": "A",
+      "preferred_model": "candidate"
+    },
+    {
+      "id": 2,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 3,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 4,
+      "preferred_label": "B",
+      "preferred_model": "candidate"
+    },
+    {
+      "id": 5,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 6,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 7,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 8,
+      "preferred_label": "B",
+      "preferred_model": "candidate"
+    },
+    {
+      "id": 9,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 10,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 11,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 12,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 13,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 14,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 15,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 16,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 17,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    },
+    {
+      "id": 18,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 19,
+      "preferred_label": "A",
+      "preferred_model": "base"
+    },
+    {
+      "id": 20,
+      "preferred_label": "B",
+      "preferred_model": "base"
+    }
+  ]
+}

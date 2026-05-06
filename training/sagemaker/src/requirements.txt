@@ -1,0 +1,11 @@
+unsloth==2026.4.6
+unsloth-zoo==2026.4.8
+transformers==5.5.0
+trl==0.24.0
+peft==0.18.1
+datasets==4.3.0
+bitsandbytes==0.49.2
+accelerate>=1.0,<2
+huggingface-hub>=1.11,<2
+hf-transfer>=0.1.9
+xformers==0.0.35

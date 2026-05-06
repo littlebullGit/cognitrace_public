@@ -1,0 +1,1209 @@
+{
+  "cards": [
+    {
+      "id": "screening_basics.overview",
+      "category": "screening_basics",
+      "audience": "patient",
+      "title": "What this screening does",
+      "body": "CogniTrace is a voice screening tool. It analyzes a recorded voice sample with a classical ONNX ensemble to look for patterns that may be worth monitoring or discussing with a clinician, but it does not diagnose Parkinson's disease.",
+      "tags": [
+        "screening",
+        "overview",
+        "what this app does"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "uses_classical_model"
+      ]
+    },
+    {
+      "id": "screening_basics.not_a_diagnosis",
+      "category": "screening_basics",
+      "audience": "patient",
+      "title": "What screening means",
+      "body": "A screening result is an early signal, not a medical conclusion. It can help flag whether a voice pattern looks more or less concerning compared with the model's training data, but it cannot confirm disease, rule disease out completely, or replace a clinical evaluation.",
+      "tags": [
+        "screening",
+        "meaning",
+        "not diagnosis"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "no_rule_out"
+      ]
+    },
+    {
+      "id": "screening_basics.why_voice_can_matter",
+      "category": "screening_basics",
+      "audience": "patient",
+      "title": "Why voice can be studied in Parkinson-related research",
+      "body": "Voice is sometimes studied because changes in vocal control, loudness stability, timing, and sound quality can occur in neurological and non-neurological conditions. A voice sample can therefore provide useful screening information, but voice alone is not enough to make a diagnosis.",
+      "tags": [
+        "voice",
+        "parkinson research",
+        "why voice matters"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "general_reference",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "screening_basics.model_roles",
+      "category": "screening_basics",
+      "audience": "patient",
+      "title": "What the prediction model is and what Gemma is used for",
+      "body": "The predictive score comes from the classical ONNX ensemble. Gemma is used only for plain-language summary, grounded follow-up education, and doctor discussion guide generation, not for making the screening prediction from raw audio.",
+      "tags": [
+        "model",
+        "onnx",
+        "gemma",
+        "prediction"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "uses_classical_model",
+        "no_gemma_prediction"
+      ]
+    },
+    {
+      "id": "screening_basics.single_recording",
+      "category": "screening_basics",
+      "audience": "patient",
+      "title": "Why one recording should be interpreted carefully",
+      "body": "A single recording is only one snapshot. Voice can vary from day to day and even within the same day depending on fatigue, hydration, illness, effort, stress, and recording conditions, so one result should be interpreted in context rather than treated as a final answer.",
+      "tags": [
+        "single recording",
+        "snapshot",
+        "context"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "screening_basics.repeat_conditions",
+      "category": "screening_basics",
+      "audience": "patient",
+      "title": "Why recording conditions matter",
+      "body": "Voice measurements work best when the recording is clear and the task is performed consistently. Noise, microphone placement, clipping, interruptions, or an incomplete task can change the measured pattern and make interpretation less reliable.",
+      "tags": [
+        "recording conditions",
+        "noise",
+        "microphone",
+        "quality"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "technical_limit"
+      ]
+    },
+    {
+      "id": "result_meaning.low",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "What a low result means",
+      "body": "A low result means this recording did not strongly resemble the Parkinson-related voice patterns represented in the model's training data. It can be reassuring, but it does not rule out symptoms, future change, or other reasons to seek medical advice.",
+      "tags": [
+        "result",
+        "low",
+        "meaning"
+      ],
+      "risk_levels": [
+        "low"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "no_rule_out"
+      ]
+    },
+    {
+      "id": "result_meaning.low_next_step",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "How to think about a low result",
+      "body": "A low result is usually best read as not strongly concerning from this recording under these conditions. If you still notice voice, speech, movement, or other symptoms, those symptoms matter more than the app alone and are still worth discussing with a clinician.",
+      "tags": [
+        "low result",
+        "what now",
+        "symptoms still matter"
+      ],
+      "risk_levels": [
+        "low"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "symptoms_override_screening"
+      ]
+    },
+    {
+      "id": "result_meaning.moderate",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "What a moderate result means",
+      "body": "A moderate result means the screening found some voice patterns worth paying attention to, but not a strong enough signal to stand alone as a severe finding. It is best understood as a prompt to consider context, repeat conditions, and whether there are symptoms or changes over time worth discussing.",
+      "tags": [
+        "result",
+        "moderate",
+        "meaning"
+      ],
+      "risk_levels": [
+        "moderate"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "context_matters"
+      ]
+    },
+    {
+      "id": "result_meaning.moderate_when_to_follow_up",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "When a moderate result may deserve extra attention",
+      "body": "A moderate result may deserve extra attention when it happens more than once, when the recording was made under good conditions, or when the user has noticed voice, speech, movement, or swallowing changes. The result should still be framed as screening information rather than proof of a condition.",
+      "tags": [
+        "moderate result",
+        "follow up",
+        "repeat result"
+      ],
+      "risk_levels": [
+        "moderate"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "follow_up"
+      ]
+    },
+    {
+      "id": "result_meaning.elevated",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "What an elevated result means",
+      "body": "An elevated result means the full screening model found a stronger similarity to Parkinson-related voice patterns in its training data. It is a screening signal, not a diagnosis, and should be treated as something to discuss with a clinician rather than proof that a disease is present.",
+      "tags": [
+        "result",
+        "elevated",
+        "meaning"
+      ],
+      "risk_levels": [
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "clinical_follow_up"
+      ]
+    },
+    {
+      "id": "result_meaning.elevated_balanced",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "How to react to an elevated result",
+      "body": "An elevated result should be taken seriously enough to review, but not as an emergency claim made by the app. A balanced response is to note the result, remember that confounders can matter, and bring it into a clinician conversation together with symptoms and context.",
+      "tags": [
+        "elevated result",
+        "reaction",
+        "follow up"
+      ],
+      "risk_levels": [
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "avoid_alarm"
+      ]
+    },
+    {
+      "id": "result_meaning.worth_discussing",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "What 'worth discussing with a clinician' means",
+      "body": "This phrase means the result may add useful information to a medical conversation, especially if you also have symptoms, recent change, or repeated concerning screenings. It does not mean the app has established a diagnosis or that a clinician will necessarily agree with the screening impression.",
+      "tags": [
+        "worth discussing",
+        "clinician",
+        "follow up meaning"
+      ],
+      "risk_levels": [
+        "low",
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "clinical_judgment_matters"
+      ]
+    },
+    {
+      "id": "result_meaning.repeated_results",
+      "category": "result_meaning",
+      "audience": "patient",
+      "title": "Why repeated results can be more informative than one result",
+      "body": "Repeated results under similar, good-quality conditions can help show whether a finding seems stable or was likely affected by circumstances. Even then, repeated screenings still do not diagnose disease, and the pattern should be interpreted together with symptoms and clinician judgment.",
+      "tags": [
+        "repeat screening",
+        "trend",
+        "monitoring"
+      ],
+      "risk_levels": [
+        "low",
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "trend_not_diagnosis"
+      ]
+    },
+    {
+      "id": "confounders.common_overview",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Common things that can affect a recording",
+      "body": "Fatigue, dehydration, respiratory illness, allergies, hoarseness, stress, microphone distance, background noise, inconsistent effort, and a rushed task can all change voice measurements. These factors can affect the result without reflecting Parkinson-specific change.",
+      "tags": [
+        "confounders",
+        "fatigue",
+        "dehydration",
+        "noise"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "not_specific"
+      ]
+    },
+    {
+      "id": "confounders.fatigue",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Fatigue and tiredness",
+      "body": "Being tired can affect breath support, loudness control, steadiness, and task consistency. That means fatigue can shift voice measurements and should be considered when interpreting a result, especially if the recording was made late in the day or during poor sleep.",
+      "tags": [
+        "fatigue",
+        "tired",
+        "sleep"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only"
+      ]
+    },
+    {
+      "id": "confounders.dehydration",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Dehydration and dry throat",
+      "body": "Dehydration or throat dryness can make the voice sound rougher or less steady and can alter some acoustic measurements. A dry voice on one day does not by itself mean a neurological problem, so hydration status is useful context when reviewing the result.",
+      "tags": [
+        "dehydration",
+        "dry throat",
+        "voice quality"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "not_specific"
+      ]
+    },
+    {
+      "id": "confounders.cold_hoarseness",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Cold, cough, allergies, or hoarseness",
+      "body": "A cold, cough, allergies, reflux irritation, or temporary hoarseness can change pitch stability, loudness stability, and noise-related measures. Results recorded during an active voice problem should be interpreted cautiously because they may reflect temporary illness more than the underlying voice pattern.",
+      "tags": [
+        "cold",
+        "hoarseness",
+        "allergies",
+        "cough"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "temporary_change_possible"
+      ]
+    },
+    {
+      "id": "confounders.background_noise",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Background noise",
+      "body": "Background sound can interfere with measurements that depend on a clean estimate of pitch, energy, and the voice spectrum. Even moderate household noise can reduce reliability, so a quiet room helps make the screening more interpretable.",
+      "tags": [
+        "noise",
+        "background sound",
+        "quiet room"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "technical_limit",
+        "context_only"
+      ]
+    },
+    {
+      "id": "confounders.microphone_distance",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Microphone distance and phone handling",
+      "body": "Holding the phone too far away, too close, or changing distance during the task can affect loudness and spectrum-related measures. Consistent phone placement helps the app compare the recording more fairly with the patterns it was trained on.",
+      "tags": [
+        "microphone distance",
+        "phone placement",
+        "recording setup"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "technical_limit",
+        "context_only"
+      ]
+    },
+    {
+      "id": "confounders.rushed_task",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Rushed, interrupted, or incomplete task performance",
+      "body": "If the speaking task was rushed, interrupted, clipped at the start or end, or performed with inconsistent effort, the extracted features may reflect task quality more than the intended voice sample. That is one reason a single result should not be overinterpreted.",
+      "tags": [
+        "rushed task",
+        "interrupted recording",
+        "incomplete task"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "technical_limit",
+        "context_only"
+      ]
+    },
+    {
+      "id": "confounders.stress_anxiety",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Stress, anxiety, or unusual effort",
+      "body": "Stress and unusual speaking effort can change breath support, pitch behavior, and vocal tension. A voice recorded when someone is anxious, straining, or trying hard to sound a certain way may not reflect their usual speaking pattern.",
+      "tags": [
+        "stress",
+        "anxiety",
+        "effort"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only"
+      ]
+    },
+    {
+      "id": "confounders.other_voice_conditions",
+      "category": "confounders",
+      "audience": "patient",
+      "title": "Other voice or throat conditions can matter",
+      "body": "Voice changes can also come from many non-neurological causes such as vocal strain, benign voice disorders, recent intubation, reflux irritation, smoking effects, or upper airway illness. The screening cannot sort out all possible causes from one recording alone.",
+      "tags": [
+        "other causes",
+        "voice disorder",
+        "throat condition"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_specific",
+        "differential_not_possible"
+      ]
+    },
+    {
+      "id": "feature_reference.overview",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "How to think about feature values",
+      "body": "Feature values are measurements that describe parts of the voice sample, such as steadiness, loudness behavior, and sound quality. They can help characterize the recording, but a single value should not be treated as the sole reason for the screening result.",
+      "tags": [
+        "features",
+        "values",
+        "how to interpret"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "general_reference",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.jitter_family",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Jitter family",
+      "body": "Jitter measures short-term pitch instability from one vibration cycle to the next. Higher jitter can reflect less steady vocal control, but it can also be influenced by recording noise, hoarseness, temporary voice strain, and how cleanly the pitch was captured.",
+      "tags": [
+        "jitter",
+        "pitch instability",
+        "feature family"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "jitter_local",
+        "jitter_rap",
+        "jitter_ppq5"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "not_specific",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.jitter_variants",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Why there are several jitter measures",
+      "body": "Different jitter variants summarize pitch instability over slightly different time windows or averaging rules. They are related measurements rather than separate diagnoses, and they are best understood as technical ways of describing steadiness in the recording.",
+      "tags": [
+        "jitter variants",
+        "technical explanation",
+        "rap",
+        "ppq5"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "jitter_local",
+        "jitter_rap",
+        "jitter_ppq5"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference"
+      ]
+    },
+    {
+      "id": "feature_reference.shimmer_family",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Shimmer family",
+      "body": "Shimmer measures short-term loudness instability from cycle to cycle. It can reflect less stable vocal fold vibration, but it is also sensitive to breathiness, effort, temporary irritation, microphone behavior, and recording conditions.",
+      "tags": [
+        "shimmer",
+        "loudness instability",
+        "feature family"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "shimmer_local",
+        "shimmer_apq3",
+        "shimmer_apq5"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "not_specific",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.shimmer_variants",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Why there are several shimmer measures",
+      "body": "Different shimmer variants summarize loudness instability in slightly different ways. They are technical descriptors used by the model and are usually more useful as part of the full voice profile than as standalone patient-facing conclusions.",
+      "tags": [
+        "shimmer variants",
+        "technical explanation",
+        "apq3",
+        "apq5"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "shimmer_local",
+        "shimmer_apq3",
+        "shimmer_apq5"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference"
+      ]
+    },
+    {
+      "id": "feature_reference.hnr",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Harmonics-to-noise ratio",
+      "body": "Harmonics-to-noise ratio, often shortened to HNR, compares the more periodic part of the voice to noisier components. In general, it helps describe voice quality, but it can change for many reasons and should not be interpreted as proof of one specific disease process.",
+      "tags": [
+        "hnr",
+        "harmonics to noise ratio",
+        "voice quality"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "hnr"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "not_specific"
+      ]
+    },
+    {
+      "id": "feature_reference.cpp",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Cepstral peak prominence",
+      "body": "Cepstral peak prominence, often called CPP, is another technical voice-quality measure related to how strongly periodic the voice signal appears. It can be useful in voice analysis, but it is still one part of a broader pattern rather than a standalone explanation of the screening outcome.",
+      "tags": [
+        "cpp",
+        "cepstral peak prominence",
+        "voice quality"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "cpp"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.pitch_family",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Pitch-related measures",
+      "body": "Pitch-related measures describe average pitch, pitch range, and how much the pitch changes across the recording. They help describe vocal control and speaking pattern, but they are influenced by sex, age, speaking style, task performance, and recording quality, so they are not interpreted in isolation.",
+      "tags": [
+        "pitch",
+        "f0",
+        "range",
+        "variation"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "f0_mean",
+        "f0_std",
+        "f0_cv",
+        "f0_min",
+        "f0_max",
+        "f0_range",
+        "f0_p25",
+        "f0_p75",
+        "f0_iqr"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "contextual",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.f0_mean",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Average pitch",
+      "body": "Average pitch, often shown as mean F0, is the typical pitch level across the sample. It can help describe the recording, but average pitch varies naturally between people and across speaking tasks, so it is not meaningful as a diagnosis by itself.",
+      "tags": [
+        "f0 mean",
+        "average pitch",
+        "mean f0"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "f0_mean"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "not_specific"
+      ]
+    },
+    {
+      "id": "feature_reference.pitch_variability",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Pitch variability",
+      "body": "Pitch variability measures how much the pitch moves during the sample. Too little or too much variation can both be affected by task style, effort, emotion, and recording quality, so these values are descriptive rather than diagnostic.",
+      "tags": [
+        "pitch variability",
+        "f0 std",
+        "f0 cv"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "f0_std",
+        "f0_cv",
+        "f0_iqr"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "contextual"
+      ]
+    },
+    {
+      "id": "feature_reference.pitch_range",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Pitch range and percentiles",
+      "body": "Pitch range and pitch percentiles summarize the spread of pitch values in the recording. They provide context about how the voice moved during the task, but they depend strongly on task performance and are not usually interpreted as a single patient-facing biomarker.",
+      "tags": [
+        "pitch range",
+        "percentiles",
+        "f0 min max"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "f0_min",
+        "f0_max",
+        "f0_range",
+        "f0_p25",
+        "f0_p75"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "technical",
+        "contextual"
+      ]
+    },
+    {
+      "id": "feature_reference.voiced_fraction",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Voiced fraction",
+      "body": "Voiced fraction estimates how much of the recording contained stable voiced sound. It can be affected by pauses, breathiness, articulation style, background noise, or incomplete task performance, so it should be treated as context rather than a standalone conclusion.",
+      "tags": [
+        "voiced fraction",
+        "voicing",
+        "speech proportion"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "voiced_fraction"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "contextual"
+      ]
+    },
+    {
+      "id": "feature_reference.energy_family",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Energy measures",
+      "body": "Energy measures reflect loudness and vocal drive in the recording. They can be relevant to voice assessment, but they are especially sensitive to microphone distance, phone orientation, speaking effort, and the acoustics of the room.",
+      "tags": [
+        "energy",
+        "loudness",
+        "volume",
+        "feature family"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "rms_energy",
+        "log_energy",
+        "peak_amplitude"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "contextual",
+        "technical_limit"
+      ]
+    },
+    {
+      "id": "feature_reference.energy_peak_vs_average",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Average versus peak loudness measures",
+      "body": "Some energy features summarize average loudness, while others capture peak levels. Differences between them can reflect speaking style and recording setup, so these measures are useful descriptors but are not enough on their own to explain the screening output.",
+      "tags": [
+        "rms",
+        "log energy",
+        "peak amplitude"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "rms_energy",
+        "log_energy",
+        "peak_amplitude"
+      ],
+      "safety_notes": [
+        "general_reference",
+        "technical",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.spectral_family",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Spectral measures",
+      "body": "Spectral measures describe how sound energy is distributed across frequencies. They can help represent voice quality and articulation patterns, but they are less intuitive than classical voice measures and are usually best understood as technical context within the larger model.",
+      "tags": [
+        "spectral",
+        "frequency distribution",
+        "feature family"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "spec_centroid_mean",
+        "spec_centroid_std",
+        "spec_bandwidth_mean",
+        "spec_bandwidth_std",
+        "spec_rolloff_mean",
+        "spec_rolloff_std",
+        "spec_slope_mean",
+        "spec_slope_std",
+        "zcr"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference",
+        "contextual"
+      ]
+    },
+    {
+      "id": "feature_reference.spectral_centroid",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Spectral centroid",
+      "body": "Spectral centroid is a technical summary of where the sound energy tends to sit across frequencies. In plain terms, it can relate to how bright or concentrated the sound is, but it is not a patient-friendly standalone marker and is best treated as part of the overall acoustic pattern.",
+      "tags": [
+        "spectral centroid",
+        "brightness",
+        "technical feature"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "spec_centroid_mean",
+        "spec_centroid_std"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference"
+      ]
+    },
+    {
+      "id": "feature_reference.spectral_bandwidth",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Spectral bandwidth",
+      "body": "Spectral bandwidth describes how spread out the sound energy is across frequencies. It can shift with voice quality, articulation, room acoustics, and noise, so it is useful context for the model but not something that should be overinterpreted by itself.",
+      "tags": [
+        "spectral bandwidth",
+        "frequency spread",
+        "technical feature"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "spec_bandwidth_mean",
+        "spec_bandwidth_std"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference",
+        "contextual"
+      ]
+    },
+    {
+      "id": "feature_reference.spectral_rolloff_slope",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Spectral rolloff and slope",
+      "body": "Spectral rolloff and spectral slope are technical ways of summarizing how the higher-frequency part of the sound behaves. They can be useful in machine-learning models, but they are not typically translated into simple patient language as isolated biomarkers.",
+      "tags": [
+        "spectral rolloff",
+        "spectral slope",
+        "technical feature"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "spec_rolloff_mean",
+        "spec_rolloff_std",
+        "spec_slope_mean",
+        "spec_slope_std"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference"
+      ]
+    },
+    {
+      "id": "feature_reference.zcr",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "Zero-crossing rate",
+      "body": "Zero-crossing rate is a technical feature that counts how often the waveform changes sign. It can reflect aspects of noisiness or sound texture, but it is not commonly interpreted on its own in patient discussions and is mainly part of the model's broader input set.",
+      "tags": [
+        "zcr",
+        "zero crossing rate",
+        "technical feature"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "zcr"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference"
+      ]
+    },
+    {
+      "id": "feature_reference.mfcc_family",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "MFCC features",
+      "body": "MFCCs are statistical descriptors of the sound spectrum that help summarize the shape of the voice signal. They are useful model inputs, but they are not usually interpreted one by one in patient language and should not be treated as standalone reasons for the result.",
+      "tags": [
+        "mfcc",
+        "spectral descriptors",
+        "technical features"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "mfcc_0_mean",
+        "mfcc_0_std",
+        "mfcc_1_mean",
+        "mfcc_1_std",
+        "mfcc_2_mean",
+        "mfcc_2_std",
+        "mfcc_3_mean",
+        "mfcc_3_std",
+        "mfcc_4_mean",
+        "mfcc_4_std",
+        "mfcc_5_mean",
+        "mfcc_5_std",
+        "mfcc_6_mean",
+        "mfcc_6_std",
+        "mfcc_7_mean",
+        "mfcc_7_std",
+        "mfcc_8_mean",
+        "mfcc_8_std",
+        "mfcc_9_mean",
+        "mfcc_9_std",
+        "mfcc_10_mean",
+        "mfcc_10_std",
+        "mfcc_11_mean",
+        "mfcc_11_std",
+        "mfcc_12_mean",
+        "mfcc_12_std"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "feature_reference.mfcc_means_vs_stds",
+      "category": "feature_reference",
+      "audience": "patient",
+      "title": "MFCC averages versus variability",
+      "body": "For each MFCC coefficient, the model may use both an average value and a variability value across the recording. These are technical summaries of sound shape over time and are generally more useful to the model than they are as direct patient-facing explanations.",
+      "tags": [
+        "mfcc mean",
+        "mfcc std",
+        "technical explanation"
+      ],
+      "risk_levels": [],
+      "feature_keys": [
+        "mfcc_0_mean",
+        "mfcc_0_std",
+        "mfcc_1_mean",
+        "mfcc_1_std",
+        "mfcc_2_mean",
+        "mfcc_2_std",
+        "mfcc_3_mean",
+        "mfcc_3_std",
+        "mfcc_4_mean",
+        "mfcc_4_std",
+        "mfcc_5_mean",
+        "mfcc_5_std",
+        "mfcc_6_mean",
+        "mfcc_6_std",
+        "mfcc_7_mean",
+        "mfcc_7_std",
+        "mfcc_8_mean",
+        "mfcc_8_std",
+        "mfcc_9_mean",
+        "mfcc_9_std",
+        "mfcc_10_mean",
+        "mfcc_10_std",
+        "mfcc_11_mean",
+        "mfcc_11_std",
+        "mfcc_12_mean",
+        "mfcc_12_std"
+      ],
+      "safety_notes": [
+        "technical",
+        "general_reference"
+      ]
+    },
+    {
+      "id": "limitations.not_diagnostic",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "The app is not a diagnostic test",
+      "body": "This app is designed for screening and monitoring support, not for diagnosis. A clinician can consider the result together with symptoms, history, examination, and other possible causes, which the app cannot fully capture from voice alone.",
+      "tags": [
+        "limitations",
+        "not diagnostic",
+        "clinical evaluation"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "clinical_judgment_matters"
+      ]
+    },
+    {
+      "id": "limitations.no_rule_out",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "Why a low result does not fully rule things out",
+      "body": "A low result means the recording was not strongly concerning to the model under those conditions. It does not guarantee that symptoms are absent, that future change will not occur, or that another type of evaluation would also be low-risk.",
+      "tags": [
+        "limitations",
+        "rule out",
+        "low result limit"
+      ],
+      "risk_levels": [
+        "low"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "no_rule_out",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "limitations.single_dataset",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "Single-dataset limitation",
+      "body": "The predictive model was trained on one research dataset collected under controlled conditions. That means generalization to other populations, other accents, different phones, and noisier real-world settings is limited and should be considered when interpreting results.",
+      "tags": [
+        "limitations",
+        "dataset",
+        "generalization"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "single_dataset",
+        "generalization_limit"
+      ]
+    },
+    {
+      "id": "limitations.controlled_recording",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "Controlled recordings differ from home recordings",
+      "body": "Research recordings are often cleaner and more standardized than everyday home recordings. Differences in room acoustics, microphone handling, and task performance can therefore make real-world results harder to compare directly with the training data.",
+      "tags": [
+        "limitations",
+        "home recording",
+        "controlled conditions"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "technical_limit",
+        "generalization_limit"
+      ]
+    },
+    {
+      "id": "limitations.full_model",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "Why one biomarker does not explain the result",
+      "body": "The screening model used the full feature set together rather than one single measurement. Individual biomarkers can be described and displayed, but they should not be presented as the sole reason the model produced the final screening result.",
+      "tags": [
+        "limitations",
+        "single marker",
+        "why this result",
+        "full model"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "no_single_marker_attribution",
+        "uses_full_feature_set"
+      ]
+    },
+    {
+      "id": "limitations.model_explanation_boundary",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "What the app can say about feature values",
+      "body": "The app can explain what a feature measures in general terms and can show the measured value from your recording. It should not claim that one feature caused the result, because the model used many features together and voice measurements are context-sensitive.",
+      "tags": [
+        "limitations",
+        "feature explanation",
+        "attribution boundary"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "no_single_marker_attribution",
+        "general_reference_only"
+      ]
+    },
+    {
+      "id": "limitations.other_causes",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "The screening does not identify the cause of a voice change",
+      "body": "Even when a recording looks concerning, the app cannot determine why the voice pattern looks that way. Voice changes may have neurological and non-neurological causes, and sorting those possibilities out requires clinical context beyond the recording alone.",
+      "tags": [
+        "limitations",
+        "cause",
+        "other possible reasons"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "differential_not_possible",
+        "not_specific"
+      ]
+    },
+    {
+      "id": "limitations.population_context",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "Natural differences between people affect voice",
+      "body": "Voice differs naturally by age, sex, language background, accent, anatomy, and speaking style. The model tries to learn useful patterns from data, but these natural differences are one reason that screening outputs should be interpreted conservatively.",
+      "tags": [
+        "limitations",
+        "individual differences",
+        "population context"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "generalization_limit"
+      ]
+    },
+    {
+      "id": "limitations.symptoms_still_matter",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "Symptoms and clinical context still matter most",
+      "body": "A screening result is only one data point. If symptoms, recent changes, or family concerns are present, those concerns still matter regardless of whether the result was low, moderate, or elevated, and they can be important to share with a clinician.",
+      "tags": [
+        "limitations",
+        "symptoms",
+        "clinical context"
+      ],
+      "risk_levels": [
+        "low",
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "clinical_judgment_matters",
+        "symptoms_override_screening"
+      ]
+    },
+    {
+      "id": "limitations.no_treatment_advice",
+      "category": "limitations",
+      "audience": "patient",
+      "title": "The app does not give treatment advice",
+      "body": "The app is not designed to recommend medications, therapy plans, or prognosis. Its role is limited to screening, explanation, and helping you prepare questions for a clinician conversation.",
+      "tags": [
+        "limitations",
+        "treatment",
+        "what app cannot do"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "no_treatment_recommendation",
+        "not_clinician"
+      ]
+    },
+    {
+      "id": "doctor_visit.when_to_discuss",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "When a clinician discussion makes sense",
+      "body": "A clinician discussion can make sense when the result is elevated, when moderate results recur, when symptoms are present, or when the user wants help interpreting persistent concerns. The app should frame this as follow-up and clarification, not as confirmation of disease.",
+      "tags": [
+        "doctor",
+        "when to discuss",
+        "follow up"
+      ],
+      "risk_levels": [
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "follow_up"
+      ]
+    },
+    {
+      "id": "doctor_visit.what_to_share",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "What information is useful to bring to a visit",
+      "body": "Useful information includes the screening result, when the recording was made, whether you were tired or unwell, whether the room was noisy, whether the phone was held consistently, and whether you have noticed any recent voice, speech, swallowing, or movement changes.",
+      "tags": [
+        "doctor",
+        "what to share",
+        "visit preparation"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "practical",
+        "context_only"
+      ]
+    },
+    {
+      "id": "doctor_visit.how_to_describe",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "How to describe the app result clearly",
+      "body": "A balanced way to describe it is: I used a voice screening app and got a result that I would like help understanding. The app is not a diagnosis, but I want to know whether this voice pattern or any symptoms I have should be evaluated further.",
+      "tags": [
+        "doctor",
+        "how to say it",
+        "opening statement"
+      ],
+      "risk_levels": [
+        "low",
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "practical"
+      ]
+    }
+  ]
+}

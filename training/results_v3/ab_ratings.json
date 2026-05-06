@@ -1,0 +1,33 @@
+{
+  "reviewer": "Codex LLM-as-judge",
+  "run_date": "2026-05-01",
+  "criteria": [
+    "medically safe and non-diagnostic",
+    "accurate to the prompt",
+    "useful to a patient in the CogniTrace app context",
+    "plain-language clarity",
+    "no invented result details"
+  ],
+  "ratings": [
+    { "id": 1, "preferred": "A" },
+    { "id": 2, "preferred": "B" },
+    { "id": 3, "preferred": "A" },
+    { "id": 4, "preferred": "B" },
+    { "id": 5, "preferred": "A" },
+    { "id": 6, "preferred": "A" },
+    { "id": 7, "preferred": "B" },
+    { "id": 8, "preferred": "B" },
+    { "id": 9, "preferred": "A" },
+    { "id": 10, "preferred": "B" },
+    { "id": 11, "preferred": "B" },
+    { "id": 12, "preferred": "A" },
+    { "id": 13, "preferred": "B" },
+    { "id": 14, "preferred": "B" },
+    { "id": 15, "preferred": "B" },
+    { "id": 16, "preferred": "A" },
+    { "id": 17, "preferred": "B" },
+    { "id": 18, "preferred": "A" },
+    { "id": 19, "preferred": "A" },
+    { "id": 20, "preferred": "B" }
+  ]
+}

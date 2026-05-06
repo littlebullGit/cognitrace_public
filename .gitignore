@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Data (too large for git)
+*.wav
+*.mp3
+*.csv
+*.parquet
+data/
+
+# Allow bundled reference audio from the public Italian PD dataset
+!app/assets/reference_audio/*.wav
+
+# Allow only public-safe training fixtures/provenance in Git
+!training/data/
+training/data/*
+!training/data/eval_prompts.jsonl
+!training/data/adversarial_prompts.jsonl
+!training/data/medical_communication_manifest.jsonl
+!training/data/README.md
+!training/data/v2_synthetic/
+!training/data/v2_synthetic/generate.py
+
+# Model weights (use HuggingFace for large files)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Small shipped ONNX ensemble assets are required for local scoring.
+!app/assets/models/*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OpenCode
+.omx/
+.sisyphus/
+
+# Secrets
+.env
+.env.*
+
+# Outputs
+outputs/
+checkpoints/
+catboost_info/
+*.backup.png
+training/output_*/
+
+# Kaggle pipeline (runtime copies, not source)
+training/kaggle_dataset/*.jsonl
+training/kaggle_kernel/*.ipynb
+
+# SageMaker pipeline (local venv, not source)
+training/sagemaker_venv/
+
+# iOS ML development
+.venv-ios-ml/
+.ios-assets/italian_pd_wavs/
+.ios-assets/swift_retrained_artifacts/
+
+# graphify
+graphify-out/
+.graphifyignore

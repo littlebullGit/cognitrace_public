@@ -1,0 +1,8 @@
+# Kaggle/Colab: QLoRA training + GGUF export
+# Install: pip install -r requirements-train.txt
+
+unsloth
+trl>=0.8
+transformers>=4.40
+torch
+datasets>=2.16

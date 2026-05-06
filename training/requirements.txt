@@ -1,0 +1,21 @@
+# Dataset curation and local evaluation
+# Install: pip install -r requirements.txt
+
+# Ensemble model training (existing)
+lightgbm>=4.0
+xgboost>=2.0
+catboost>=1.2
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+onnxmltools>=1.12
+skl2onnx>=1.16
+
+# Fine-tuning data curation
+datasets>=2.16
+requests>=2.31
+beautifulsoup4>=4.12
+
+# Evaluation
+textstat>=0.7
+pytest>=8.0

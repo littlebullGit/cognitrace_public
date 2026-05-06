@@ -1,0 +1,8 @@
+{
+  "language": "es",
+  "model": "training/outputs/models/cognitrace-gemma4-medical-v3-Q4_K_M.gguf",
+  "total_prompts": 5,
+  "violations": 0,
+  "flagged": [],
+  "passed": true
+}

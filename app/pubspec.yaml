@@ -1,0 +1,32 @@
+name: cognitrace
+description: "A 60-second voice check for Parkinson's screening in any language."
+publish_to: 'none'
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  llamadart: ^0.6.10
+  flutter_onnxruntime: ^1.6.4
+  intl: ^0.20.2
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.5
+  share_plus: ^10.1.0
+  flutter_markdown: ^0.7.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/knowledge/
+    - assets/reference_audio/

@@ -1,0 +1,7 @@
+{
+  "base_first_token_ms": 33.0,
+  "candidate_first_token_ms": 34.1,
+  "ratio": 1.034,
+  "gate_pass": true,
+  "methodology": "median of 5 generations after 2 warmup calls; excludes Metal kernel compilation"
+}

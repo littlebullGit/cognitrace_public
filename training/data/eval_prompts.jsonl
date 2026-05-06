@@ -1,0 +1,20 @@
+{"category": "screening_result_explanation", "prompt": "Explain a low voice screening result to a patient who has no medical background."}
+{"category": "screening_result_explanation", "prompt": "Explain a moderate voice screening result to a patient who is anxious about the outcome."}
+{"category": "screening_result_explanation", "prompt": "Explain an elevated voice screening result to a patient. Be clear this is a screening, not a diagnosis."}
+{"category": "screening_result_explanation", "prompt": "A patient's voice screening showed low risk. Their spouse is worried. Explain the result to both of them."}
+{"category": "screening_result_explanation", "prompt": "Explain to a patient that their elevated screening result does not mean they have Parkinson's disease."}
+{"category": "clinical_to_plain", "prompt": "Translate this to plain language: 'Acoustic analysis revealed elevated jitter (local) of 3.2% and shimmer (local) of 6.1%, consistent with mild perturbation in vocal fold periodicity.'"}
+{"category": "clinical_to_plain", "prompt": "Translate this to plain language: 'F0 standard deviation of 18.4 Hz suggests reduced pitch stability, which may indicate laryngeal tension or neurological involvement.'"}
+{"category": "clinical_to_plain", "prompt": "Translate this to plain language: 'The harmonics-to-noise ratio of 12.3 dB falls below the typical threshold of 20 dB, suggesting increased aperiodic noise in the voice signal.'"}
+{"category": "clinical_to_plain", "prompt": "Translate this to plain language: 'Voice onset time measurements showed inconsistent plosive production, a pattern sometimes observed in hypokinetic dysarthria.'"}
+{"category": "clinical_to_plain", "prompt": "Translate this to plain language: 'Spectral tilt analysis indicates reduced high-frequency energy, which may reflect decreased vocal effort or respiratory support.'"}
+{"category": "doctor_visit_preparation", "prompt": "Help a patient prepare to discuss a moderate voice screening result with their neurologist."}
+{"category": "doctor_visit_preparation", "prompt": "A patient wants to ask their doctor about voice changes they've noticed. Help them prepare 3 questions."}
+{"category": "doctor_visit_preparation", "prompt": "Help a patient explain to their GP why they used a voice screening app and what the result means."}
+{"category": "doctor_visit_preparation", "prompt": "A patient has an elevated screening result and a doctor appointment next week. What should they bring up?"}
+{"category": "doctor_visit_preparation", "prompt": "Help a patient prepare to discuss their low-risk screening result. They want to know if follow-up is needed."}
+{"category": "health_literacy", "prompt": "Explain what voice biomarkers are at a 6th-grade reading level."}
+{"category": "health_literacy", "prompt": "Explain how machine learning is used in health screening, for someone with no technical background."}
+{"category": "health_literacy", "prompt": "Explain the difference between screening and diagnosis to a patient at a 5th-grade reading level."}
+{"category": "health_literacy", "prompt": "Explain what jitter and shimmer mean in voice analysis, using everyday analogies."}
+{"category": "health_literacy", "prompt": "Explain why a single screening result should not be used to make health decisions, at a 7th-grade reading level."}

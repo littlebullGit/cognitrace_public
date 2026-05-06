@@ -1,0 +1,353 @@
+{
+  "cards": [
+    {
+      "id": "doctor_visit.opening_statement",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "A clear opening statement for the visit",
+      "body": "A useful opening is to say that you used a voice screening tool, received a screening result you would like help understanding, and want to discuss whether the result and any symptoms suggest that further evaluation would be appropriate.",
+      "tags": [
+        "doctor",
+        "opening",
+        "visit reason"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "practical"
+      ]
+    },
+    {
+      "id": "doctor_visit.low_guidance",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "How to discuss a low result",
+      "body": "For a low result, the guide should stay reassuring but honest. It can say that the screening was not strongly concerning in that recording while still noting that symptoms, future changes, or repeated concerns may still deserve clinical attention.",
+      "tags": [
+        "doctor",
+        "low result",
+        "visit guidance"
+      ],
+      "risk_levels": [
+        "low"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "reassuring",
+        "not_diagnostic",
+        "no_rule_out"
+      ]
+    },
+    {
+      "id": "doctor_visit.moderate_guidance",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "How to discuss a moderate result",
+      "body": "For a moderate result, the guide should frame the screening as worth discussing rather than alarming. It should emphasize recording conditions, symptoms, and whether similar results or voice changes have occurred more than once.",
+      "tags": [
+        "doctor",
+        "moderate result",
+        "visit guidance"
+      ],
+      "risk_levels": [
+        "moderate"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "cautious",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "doctor_visit.elevated_guidance",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "How to discuss an elevated result",
+      "body": "For an elevated result, the guide should encourage a clinician conversation without claiming diagnosis. It should present the screening as something that deserves follow-up and professional interpretation, especially if symptoms or repeated concerning results are present.",
+      "tags": [
+        "doctor",
+        "elevated result",
+        "visit guidance"
+      ],
+      "risk_levels": [
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "follow_up",
+        "not_diagnostic",
+        "avoid_alarm"
+      ]
+    },
+    {
+      "id": "doctor_visit.context_to_share",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "What context to share with the clinician",
+      "body": "Useful context includes when the recording was made, whether you felt tired, stressed, dehydrated, sick, or hoarse, whether the room was noisy, whether the phone position was consistent, and whether you have noticed any recent voice, speech, swallowing, or movement changes.",
+      "tags": [
+        "doctor",
+        "context",
+        "share",
+        "recording conditions"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "practical"
+      ]
+    },
+    {
+      "id": "doctor_visit.symptom_examples",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Examples of symptoms or changes worth mentioning",
+      "body": "Helpful examples to mention include softer voice, hoarseness, reduced clarity, feeling that speaking takes more effort, changes noticed by family, swallowing concerns, or any movement symptoms that are already on your mind. The goal is to give context, not to self-diagnose.",
+      "tags": [
+        "doctor",
+        "symptoms",
+        "examples",
+        "what to mention"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "practical"
+      ]
+    },
+    {
+      "id": "doctor_visit.useful_questions",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Useful questions to ask",
+      "body": "Useful questions include whether the result and your symptoms warrant further evaluation, whether repeating screening under better conditions would be helpful, whether there are non-neurological reasons the voice could sound this way, and what type of assessment would best clarify the situation.",
+      "tags": [
+        "doctor",
+        "questions",
+        "what should I ask"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "practical",
+        "not_treatment_advice"
+      ]
+    },
+    {
+      "id": "doctor_visit.questions_about_context",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Questions about confounders and recording context",
+      "body": "It can be useful to ask whether fatigue, dehydration, illness, stress, hoarseness, or home recording conditions could have affected the result. This helps the conversation stay balanced and prevents the screening from being treated as more certain than it is.",
+      "tags": [
+        "doctor",
+        "confounders",
+        "context questions"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "avoid_overclaiming"
+      ]
+    },
+    {
+      "id": "doctor_visit.repeat_screening_question",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "How to ask about repeating the screening",
+      "body": "A practical question is whether it would be useful to repeat the voice screening under quieter, more consistent conditions or after a temporary illness has passed. This keeps the discussion focused on improving context rather than assuming the first result was definitive.",
+      "tags": [
+        "doctor",
+        "repeat screening",
+        "practical question"
+      ],
+      "risk_levels": [
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "practical",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "doctor_visit.how_to_share_feature_values",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "How to talk about feature values if asked",
+      "body": "If feature values come up, it is safest to describe them as measurements from the recording rather than reasons the app reached its conclusion. You can say that the app reports technical voice measures, but the final result came from the full model, not from one single biomarker.",
+      "tags": [
+        "doctor",
+        "feature values",
+        "how to explain"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "no_single_marker_attribution",
+        "practical"
+      ]
+    },
+    {
+      "id": "doctor_visit.report_limits",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Important limits to state clearly",
+      "body": "The guide should explicitly say that the app is a screening tool, not a diagnostic test, that the predictive model was trained on one research dataset, that home recording conditions can affect the result, and that no single biomarker explains the output by itself.",
+      "tags": [
+        "doctor",
+        "limits",
+        "caveats",
+        "how to state limits"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "single_dataset",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "doctor_visit.shareable_tone",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "What tone the discussion guide should use",
+      "body": "The guide should sound neutral, practical, and easy to share. It should avoid dramatic language, avoid making predictions about the future, and avoid sounding like a formal medical report or a diagnosis statement.",
+      "tags": [
+        "doctor",
+        "tone",
+        "shareable",
+        "neutral wording"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "avoid_alarm",
+        "not_formal_medical_report"
+      ]
+    },
+    {
+      "id": "doctor_visit.why_bring_it_up",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Why it can still be reasonable to bring up the result",
+      "body": "It can be reasonable to bring up the result because screening tools may provide another data point to discuss, especially when symptoms or recent changes are already a concern. The purpose of bringing it up is to add context to the conversation, not to prove what the diagnosis is.",
+      "tags": [
+        "doctor",
+        "why mention it",
+        "discussion aid"
+      ],
+      "risk_levels": [
+        "low",
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "discussion_aid",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "doctor_visit.what_not_to_claim",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "What not to claim from the app",
+      "body": "The guide should avoid saying that the app proved Parkinson's disease, ruled it out, found the exact cause of a voice change, or identified one biomarker as the reason for the result. Those claims go beyond what the screening can support.",
+      "tags": [
+        "doctor",
+        "what not to say",
+        "overclaiming"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "not_diagnostic",
+        "no_rule_out",
+        "no_single_marker_attribution"
+      ]
+    },
+    {
+      "id": "doctor_visit.prepare_notes",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Helpful notes to prepare before the visit",
+      "body": "Before the visit, it can help to note the date of the recording, the result category, whether you were tired or sick, the recording conditions, any recent voice or speech changes, and whether similar results have happened more than once. These details can make the discussion more concrete.",
+      "tags": [
+        "doctor",
+        "prepare notes",
+        "visit prep"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "practical",
+        "context_only"
+      ]
+    },
+    {
+      "id": "doctor_visit.family_observations",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "Why outside observations can be useful",
+      "body": "If family members or coworkers have noticed voice, speech, or communication changes, that observation can be useful context to mention. Outside observations do not make a diagnosis, but they can help a clinician understand whether the change seems persistent or noticeable in daily life.",
+      "tags": [
+        "doctor",
+        "family observations",
+        "daily life context"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "context_only",
+        "not_diagnostic"
+      ]
+    },
+    {
+      "id": "doctor_visit.if_result_conflicts_with_feelings",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "When the result does not match how you feel",
+      "body": "If the result seems inconsistent with your own experience, it is reasonable to say that directly. A clinician conversation can help weigh the screening against symptoms, examination, and other possible explanations rather than assuming the app was fully right or fully wrong.",
+      "tags": [
+        "doctor",
+        "result mismatch",
+        "how to discuss uncertainty"
+      ],
+      "risk_levels": [
+        "low",
+        "moderate",
+        "elevated"
+      ],
+      "feature_keys": [],
+      "safety_notes": [
+        "clinical_judgment_matters",
+        "uncertainty_ok"
+      ]
+    },
+    {
+      "id": "doctor_visit.follow_up_goal",
+      "category": "doctor_visit",
+      "audience": "patient",
+      "title": "A practical goal for the conversation",
+      "body": "A good goal is to leave the visit with a clearer understanding of how much weight to place on the screening result, whether the voice change seems clinically meaningful, and what kind of follow-up or observation would make sense based on your overall situation.",
+      "tags": [
+        "doctor",
+        "visit goal",
+        "practical outcome"
+      ],
+      "risk_levels": [],
+      "feature_keys": [],
+      "safety_notes": [
+        "practical",
+        "not_treatment_advice"
+      ]
+    }
+  ]
+}

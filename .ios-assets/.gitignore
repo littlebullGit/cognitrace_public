@@ -1,0 +1,7 @@
+# Test audio files (too large for git, regenerated from S3)
+reference/test_audio/*.wav
+
+# Generated feature CSV (regenerated from S3)
+italian_pd_egemaps_features.csv
+
+# Keep: reference_vectors.json, *.py scripts, .gitignore

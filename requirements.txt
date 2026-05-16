@@ -6,7 +6,7 @@ lightgbm>=4.6.0
 
 # Audio processing
 opensmile>=2.5.0
-librosa>=0.10.0
+librosa>=0.11.0
 soundfile>=0.12.0
 
 # Gemma / HuggingFace

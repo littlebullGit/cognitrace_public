@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  llamadart: ^0.6.10
+  llamadart: ^0.6.13
   flutter_onnxruntime: ^1.6.4
   intl: ^0.20.2
   path_provider: ^2.1.5

@@ -14,7 +14,7 @@ skl2onnx>=1.16
 # Fine-tuning data curation
 datasets>=2.16
 requests>=2.31
-beautifulsoup4>=4.12
+beautifulsoup4>=4.14.3
 
 # Evaluation
 textstat>=0.7
